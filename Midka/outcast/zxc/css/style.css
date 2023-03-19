@@ -1,0 +1,240 @@
+body 
+{
+    margin: 0;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+
+.marin
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.makima 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: : 100%;
+    height: 100vh;
+    background: url(../images/111.jpg)
+        center
+        no-repeat;
+    background-size: cover;
+}
+
+.makima_qwe
+{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.makima_1000
+{
+    font-size: 72px;
+    color: darkviolet;
+}
+
+.makima_zxc
+{
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: aqua;
+}
+
+.makima_zxc:after
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+    
+    background-color: aqua;
+}
+
+.yelan
+{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    
+    border: 3px solid aqua;
+    
+    font-size: 14px;
+    color: aqua;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    transition: background 0.2s linear,
+        color 0.2s linear,
+        border 0.2s linear;
+}
+
+.yelan:hover
+{
+    background-color: darkviolet;
+    color: black;
+    border-color: darkviolet;
+}
+
+.lol
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.lol_lloll
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lol_olo
+{
+    font-size: 30px;
+    color: darkviolet;
+    text-transform: uppercase;
+}
+
+.gojo
+{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.gojo_lol
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+    color: aqua;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.gojo_lol:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+    background-color: darkviolet;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 3;
+    
+    transition: opacity 0.2s linear;
+}
+
+.gojo_lol:hover
+{
+    color: darkviolet;
+}
+
+.gojo_lol:hover:after
+{
+    opacity: 1;
+}
+
+.ayaka
+{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.ayaka_come
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ayaka_zxc
+{
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
+    
+    border-top: 3px solid aqua;
+    opacity: 0.7;
+    
+    font-size: 18px;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.ayaka_mistsplitter
+{
+    font-size 24px;
+    
+}
+
+.ayaka_zxc.mine
+{
+    opacity: 1;
+}
+
+.ayaka_zxc.mine:before
+{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    
+    background-color: darkviolet;
+    
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
